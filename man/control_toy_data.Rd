@@ -3,12 +3,14 @@
 \docType{data}
 \name{control_toy_data}
 \alias{control_toy_data}
-\title{Toy data}
-\format{An object of class \code{matrix} with 27578 rows and 38 columns.}
+\title{Illumina Control Toy data}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 27578 rows and 38 columns.
+}
 \usage{
 control_toy_data
 }
 \description{
-Test with \code{\link{select_informative_sites}}.
+Example of control beta values from Illumina BeadChip
 }
 \keyword{datasets}

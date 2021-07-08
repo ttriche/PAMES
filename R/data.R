@@ -22,35 +22,28 @@
 #' @source \url{https://support.illumina.com/array/array_kits/infinium_humanmethylation27_beadchip_kit.html.html}
 "illumina450k_hg38"
 
+#' Illumina Tumor Toy data
+#'
+#' Example of tumor beta values from Illumina BeadChip
+"tumor_toy_data"
+
+#' Illumina Control Toy data
+#'
+#' Example of control beta values from Illumina BeadChip
+"control_toy_data"
+
 #' Curated set of CpG islands
 #'
 #' Downloaded on 2016-03-01.
 #' @source \url{https://genome.ucsc.edu/}
 "cpg_islands"
 
-
-#' Toy data
+#' BS Toy data
 #'
-#' Test with \code{\link{reduce_to_islands}}.
-"bs_tumor_toy_data"
+#' Example of tumor and control beta values from Bisulphite Sequencing
+"bs_toy_matrix"
 
-#' Toy data
+#' BS Toy sites
 #'
-#' Test with \code{\link{reduce_to_islands}}.
-"bs_control_toy_data"
-
-#' Toy data
-#'
-#' Test with \code{\link{reduce_to_islands}}.
+#' Example of data.frame with location of CpG sites
 "bs_toy_sites"
-
-
-#' Toy data
-#'
-#' Test with \code{\link{select_informative_sites}}.
-"tumor_toy_data"
-
-#' Toy data
-#'
-#' Test with \code{\link{select_informative_sites}}.
-"control_toy_data"

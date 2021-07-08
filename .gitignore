@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-TODO
+install.sh
+*.un~
